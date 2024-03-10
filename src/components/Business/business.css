@@ -1,0 +1,28 @@
+.business {
+    margin: 8rem 0;
+}
+
+.business .section-heading {
+    margin-bottom: 6rem;
+}
+
+.business .section-heading h2 {
+    font-weight: 600;
+    margin: 2.5rem 0;
+}
+
+.business .business-topic .topic {
+    margin: 3rem 0;
+}
+
+.business .business-topic .topic h5 {
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.business .business-topic .topic h5 svg {
+    color: var(--redColor);
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.find {
+    padding: 10rem 1.5rem;
+    background-color: #FFD2B1;
+}
+
+.find h2 {
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.find p {
+    opacity: 1;
+    margin: 2rem 0;
+}

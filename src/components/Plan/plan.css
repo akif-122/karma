@@ -1,0 +1,15 @@
+.plan {
+    padding: 8rem 0;
+    background-color: #FFFCF9;
+}
+
+.plan .plan-heading h2 {
+    font-weight: 600;
+    font-family: var(--poppinsFont);
+    margin: 1.5rem 0;
+}
+
+.plan .plan-heading p {
+    margin: 1.5rem 0;
+    opacity: 1;
+}

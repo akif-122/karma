@@ -1,0 +1,70 @@
+.footer {
+    background-color: var(--darkColor);
+    padding: 10rem 1.5rem;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+.footer a:hover {
+    color: #70E2D9;
+}
+
+.footer .ft-content {
+    margin-bottom: 4rem;
+}
+
+.footer .ft-content img {
+    width: 110px;
+    display: inline-block;
+    margin-bottom: 1.8rem;
+}
+
+.footer .ft-content p {
+    font-weight: 300 !important;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.footer .ft-content h6 {
+    margin-bottom: 1.8rem;
+}
+
+.footer .ft-content ul li a {
+    margin: .5rem 0;
+    display: inline-block;
+}
+
+.footer .ft-content .newsLetter input {
+    width: 100%;
+    height: 6rem;
+    border-radius: 6rem;
+    padding: 1.5rem;
+    border: none;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .ft-content .newsLetter button {
+    width: 100%;
+}
+
+.footer .ft-content .newsLetter button:hover {
+    color: var(--redColor);
+    background-color: #fff;
+}
+
+.footer .ft-content .social-link a svg {
+    font-size: 2rem;
+    transition: .4s ease;
+}
+
+.footer .ft-content .social-link a:hover svg {
+    color: #70E2D9;
+}

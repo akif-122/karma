@@ -1,0 +1,70 @@
+.planCard {
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.09);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.planCard .planCard-Header {
+    background-color: #D8D8D8;
+    padding: 2.5rem 1rem;
+}
+
+.planCard.premium {
+    scale: 1.1;
+}
+
+.planCard.premium .planCard-Header {
+    background-color: #FDB7B7;
+}
+
+.planCard .planCard-Header h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.planCard .planCard-body {
+    padding: 5rem 3rem;
+}
+
+.planCard .planCard-body h2 {
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.planCard .planCard-body h2 span {
+    color: #7A7A7A;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+.planCard .planCard-body p svg {
+    color: #61CE70;
+    font-size: 1.8rem;
+    transform: translateY(-2px);
+}
+
+.planCard .planCard-body .card-list {
+    margin: 2rem 0;
+}
+
+.planCard .planCard-body .card-list p {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    color: var(--darkColor);
+    opacity: 1;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .planCard {
+        margin: 2rem 0;
+    }
+
+    .planCard.premium {
+        scale: 1;
+    }
+}

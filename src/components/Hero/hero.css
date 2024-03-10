@@ -1,0 +1,42 @@
+/* 
+=====================================
+    HERO SECTION START
+=====================================
+*/
+.hero-section {
+    padding: 8rem 1.5rem;
+    background-color: #FFFCF9;
+}
+
+.hero-section .hero-content h1 {
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.hero-section .hero-content p {
+    margin: 2rem 0;
+}
+
+.hero-section .hero-content .hero-btn {
+    margin-bottom: 2rem;
+}
+
+.hero-section .hero-content .hero-images {
+    max-width: 400px;
+}
+
+.hero-section .hero-content .hero-images img {
+    width: 120px;
+    opacity: .6;
+    transition: .4s ease;
+}
+
+.hero-section .hero-content .hero-images img:hover {
+    opacity: 1;
+}
+
+/* 
+=====================================
+    HERO SECTION END
+=====================================
+*/
